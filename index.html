@@ -1,107 +1,242 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abdullah — NEO-SYNTAX | Digital Architect</title>
-  <meta name="description" content="بورتفوليو Abdullah — مهندس برمجيات ومطور. مستودعات، مساهمات، ومشاريع على GitHub معروضة كتجربة بصرية سينمائية." />
-  <meta name="robots" content="index, follow" />
-  <meta name="author" content="Abdullah" />
-  <meta name="keywords" content="Abdullah, developer, portfolio, github, software engineer, web developer, NEO-SYNTAX" />
-  <meta property="og:title" content="Abdullah — NEO-SYNTAX" />
-  <meta property="og:description" content="بورتفوليو Abdullah — مهندس برمجيات. مستودعات ومساهمات GitHub كتجربة بصرية." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://riorioriorio000000-debug.github.io/neo-syntax-portfolio/" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="canonical" href="https://riorioriorio000000-debug.github.io/neo-syntax-portfolio/" />
-  <link rel="stylesheet" href="style.css" />
-  <meta name="google-site-verification" content="99qkQZHVWzuKQM01D1R_lEooSx1fjDzZS4HIU0QC1IQ" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>الإشراقة للتنظيف والصيانة | تنظيف شامل وصيانة مكيفات وأفران بالسعودية</title>
+<meta name="description" content="الإشراقة للتنظيف والصيانة، شركة سعودية متخصصة في التنظيف الشامل للمنازل والمكاتب، وصيانة وتنظيف المكيفات، وتنظيف أفران الغاز. خدمة سريعة وجودة موثوقة." />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="الإشراقة للتنظيف والصيانة" />
+<meta name="keywords" content="شركة تنظيف, تنظيف منازل, صيانة مكيفات, تنظيف مكيفات, تنظيف افران غاز, شركة تنظيف السعودية, الإشراقة للتنظيف" />
+<meta property="og:title" content="الإشراقة للتنظيف والصيانة" />
+<meta property="og:description" content="تنظيف شامل، صيانة وتنظيف مكيفات، وتنظيف أفران الغاز — خدمات احترافية في جميع أنحاء السعودية." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="logo.svg" />
+<meta property="og:url" content="https://alishraqa-clean.github.io/" />
+<meta property="og:locale" content="ar_SA" />
+<meta name="twitter:card" content="summary" />
+<link rel="canonical" href="https://alishraqa-clean.github.io/" />
+<link rel="icon" type="image/svg+xml" href="logo.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=Tajawal:wght@500;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "الإشراقة للتنظيف والصيانة",
+  "image": "logo.svg",
+  "description": "شركة سعودية متخصصة في التنظيف الشامل للمنازل والمكاتب، وصيانة وتنظيف المكيفات، وتنظيف أفران الغاز.",
+  "areaServed": "SA",
+  "telephone": ["+966509614797", "+966552610151"],
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "SA"
+  }
+}
+</script>
 </head>
 <body>
-  <div class="grid-bg"></div>
-  <div class="cursor-glow" id="cursorGlow"></div>
 
-  <nav class="nav">
-    <div class="nav-brand">&lt;NEO-SYNTAX /&gt;</div>
-    <div class="nav-links">
-      <a href="#pulse" data-cmd="cd ~/pulse">Pulse</a>
-      <a href="#forge" data-cmd="cd ~/forge">Forge</a>
-      <a href="#terminal" data-cmd="cd ~/connect">Connect</a>
-      <a href="https://github.com/riorioriorio000000-debug" target="_blank" rel="noopener" data-cmd="open github">GitHub ↗</a>
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="#top" class="brand">
+      <img src="logo.svg" alt="شعار الإشراقة للتنظيف والصيانة" width="38" height="38" />
+      <span class="brand-text">الإشراقة<span>CLEANING &amp; MAINTENANCE — KSA</span></span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="#services">خدماتنا</a>
+      <a href="#about">من نحن</a>
+      <a href="#articles">مقالات</a>
+      <a href="#contact" class="nav-cta">تواصل واتساب</a>
     </div>
-  </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
 
-  <header id="pulse" class="hero">
-    <div class="hero-bg-stats" id="heroStats"></div>
-    <div class="hero-content">
-      <div class="hero-tag">_DIGITAL_ARCHITECT_v2.0</div>
-      <h1 class="hero-name" id="heroName">Abdullah</h1>
-      <p class="hero-bio" id="heroBio">Loading live data from GitHub...</p>
-      <div class="hero-metrics" id="heroMetrics">
-        <div class="metric"><span class="metric-num" data-target="0" id="mRepos">0</span><span class="metric-label">REPOSITORIES</span></div>
-        <div class="metric"><span class="metric-num" data-target="0" id="mFollowers">0</span><span class="metric-label">FOLLOWERS</span></div>
-        <div class="metric"><span class="metric-num" data-target="0" id="mFollowing">0</span><span class="metric-label">FOLLOWING</span></div>
-        <div class="metric"><span class="metric-num" data-target="0" id="mStars">0</span><span class="metric-label">TOTAL_STARS</span></div>
-      </div>
-      <div class="hero-cta">
-        <a href="#forge" class="btn-primary">explore_forge()</a>
-        <a href="https://github.com/riorioriorio000000-debug" target="_blank" rel="noopener" class="btn-ghost">view_source ↗</a>
-      </div>
-    </div>
-    <div class="scroll-hint">SCROLL ↓</div>
-  </header>
+<header class="hero" id="top">
+  <div class="rays" aria-hidden="true">
+    <svg viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+      <g stroke="#1c1c1a" stroke-width="1">
+        <line x1="600" y1="-100" x2="600" y2="700"/>
+        <line x1="200" y1="-50" x2="1000" y2="650"/>
+        <line x1="1000" y1="-50" x2="200" y2="650"/>
+        <line x1="0" y1="300" x2="1200" y2="300"/>
+      </g>
+    </svg>
+  </div>
 
-  <section class="activity-strip">
-    <div class="strip-label">// recent_activity_stream</div>
-    <div class="strip-track" id="activityTrack"></div>
-  </section>
+  <img src="logo.svg" alt="شعار الإشراقة" class="hero-mark" width="104" height="104" />
+  <div class="hero-eyebrow">ESTABLISHED IN SAUDI ARABIA</div>
+  <h1>الإشراقة<br /><em>للتنظيف والصيانة</em></h1>
+  <p class="lead">نمنح مساحتك بريقًا جديدًا — تنظيف شامل للمنازل والمكاتب، وصيانة وتنظيف احترافي للمكيفات وأفران الغاز، بمعايير دقة لا تقبل المنتصف.</p>
 
-  <section id="forge" class="forge">
-    <div class="section-head">
-      <span class="section-index">02</span>
-      <h2 class="section-title">The_Forge</h2>
-      <p class="section-sub">مستودعات تُطبع كقطع فنية — اسحب أفقيًا للاستكشاف</p>
-    </div>
-    <div class="repo-gallery" id="repoGallery">
-      <div class="loading-dot">fetching_repos...</div>
-    </div>
-  </section>
+  <div class="hero-actions">
+    <a class="btn btn-solid" href="https://wa.me/966509614797" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2Z"/></svg>
+      احجز عبر واتساب
+    </a>
+    <a class="btn btn-outline" href="#services">شاهد خدماتنا</a>
+  </div>
 
-  <section id="terminal" class="terminal-section">
-    <div class="section-head">
-      <span class="section-index">03</span>
-      <h2 class="section-title">The_Terminal</h2>
-      <p class="section-sub">تواصل عبر سطر الأوامر</p>
-    </div>
-    <div class="terminal">
-      <div class="terminal-bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="term-title">— bash —</span></div>
-      <div class="terminal-body" id="termBody">
-        <div class="term-line"><span class="prompt">visitor@neo-syntax</span>:<span class="path">~</span>$ <span class="typed" id="typedCmd"></span></div>
-        <div class="term-output" id="termOutput"></div>
-        <div class="term-commands">
-          <button data-cmd="whoami" class="cmd-btn">whoami</button>
-          <button data-cmd="social" class="cmd-btn">social</button>
-          <button data-cmd="contact" class="cmd-btn">contact</button>
-          <button data-cmd="help" class="cmd-btn">help</button>
-        </div>
-      </div>
-    </div>
-  </section>
+  <div class="hero-strip">
+    <div class="stat"><b>+2,400</b><span>موقع تم تنظيفه</span></div>
+    <div class="stat"><b>24/7</b><span>استجابة الطلبات</span></div>
+    <div class="stat"><b>100%</b><span>فرق مدربة ومعتمدة</span></div>
+  </div>
+</header>
 
-  <footer class="footer">
-    <div class="footer-left">
-      <div class="footer-brand">© 2026 Abdullah — NEO-SYNTAX</div>
-      <div class="footer-meta">Built with static HTML/CSS/JS · Powered by GitHub API · Hosted on GitHub Pages</div>
+<section id="services">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">خدماتنا</div>
+      <h2>ثلاث خدمات، دقة واحدة</h2>
+      <p>كل خدمة نقدمها مبنية على فريق متخصص وأدوات مخصصة لطبيعة العمل، من غير حلول عامة.</p>
+    </div>
+  </div>
+
+  <div class="services-grid">
+    <div class="service-card">
+      <span class="service-num">01 / التنظيف الشامل</span>
+      <svg class="icon" viewBox="0 0 48 48" fill="none">
+        <circle class="icon-ray" cx="24" cy="24" r="21" stroke-width="1.5"/>
+        <path class="icon-ray" d="M16 30l4-14 4 10 4-10 4 14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <h3>تنظيف شامل للمنازل والمكاتب</h3>
+      <p>تعقيم وتنظيف عميق لكل الزوايا — أرضيات، مطابخ، حمامات، مفروشات — بمواد آمنة وفريق مدرب على أعلى معايير النظافة.</p>
+    </div>
+
+    <div class="service-card">
+      <span class="service-num">02 / صيانة المكيفات</span>
+      <svg class="icon" viewBox="0 0 48 48" fill="none">
+        <circle class="icon-ray" cx="24" cy="24" r="21" stroke-width="1.5"/>
+        <path class="icon-ray" d="M24 14v20M16 18l16 12M32 18L16 30" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <h3>تنظيف وصيانة المكيفات</h3>
+      <p>غسيل فلاتر، فحص غاز التبريد، وتنظيف كامل للوحدة الداخلية والخارجية لأداء أبرد وهواء أنقى وعمر أطول للجهاز.</p>
+    </div>
+
+    <div class="service-card">
+      <span class="service-num">03 / تنظيف أفران الغاز</span>
+      <svg class="icon" viewBox="0 0 48 48" fill="none">
+        <circle class="icon-ray" cx="24" cy="24" r="21" stroke-width="1.5"/>
+        <path class="icon-ray" d="M24 12c3 4-2 5-1 9 3-1 4-4 4-4 2 3 1 7-3 9-4-2-6-6-4-10 1-2 2-3 4-4Z" stroke-width="2" stroke-linejoin="round"/>
+      </svg>
+      <h3>تنظيف وصيانة أفران الغاز</h3>
+      <p>إزالة الدهون المتراكمة وتعقيم الشعلات والفرن الداخلي، مع فحص فني لسلامة التوصيلات وضمان الأمان أثناء الاستخدام.</p>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="about-visual">
+      <svg viewBox="0 0 200 200" fill="none">
+        <circle cx="100" cy="100" r="98" stroke="#2a2a26" stroke-width="1"/>
+        <circle cx="100" cy="100" r="42" stroke="#ffffff" stroke-width="2"/>
+        <circle cx="100" cy="100" r="14" fill="#ffffff"/>
+        <g stroke="#ffffff" stroke-width="2.4" stroke-linecap="round">
+          <line x1="100" y1="18" x2="100" y2="40"/>
+          <line x1="100" y1="160" x2="100" y2="182"/>
+          <line x1="18" y1="100" x2="40" y2="100"/>
+          <line x1="160" y1="100" x2="182" y2="100"/>
+          <line x1="42" y1="42" x2="58" y2="58"/>
+          <line x1="142" y1="142" x2="158" y2="158"/>
+          <line x1="158" y1="42" x2="142" y2="58"/>
+          <line x1="58" y1="142" x2="42" y2="158"/>
+        </g>
+      </svg>
+    </div>
+    <div class="about-copy">
+      <div class="eyebrow">من نحن</div>
+      <h2>هوية سعودية، معايير عالمية</h2>
+      <p>الإشراقة للتنظيف والصيانة شركة سعودية تعمل في تقديم خدمات التنظيف والصيانة المنزلية والتجارية، بفرق ميدانية موزعة تصل إلى عملائنا في مختلف مناطق المملكة. اسمنا مأخوذ من فكرة بسيطة: كل مساحة تستحق أن تُشرق من جديد.</p>
+      <ul class="about-list">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l6 6L20 6"/></svg>
+          فرق تنظيف وصيانة مدربة ومعتمدة داخل السعودية
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l6 6L20 6"/></svg>
+          أدوات ومواد تنظيف آمنة تناسب كل نوع سطح وجهاز
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12l6 6L20 6"/></svg>
+          حجز وتواصل مباشر عبر واتساب بدون تعقيد
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="articles">
+  <div class="wrap">
+    <div class="head center">
+      <div class="eyebrow">مقالات ونصائح</div>
+      <h2>دليلك لصيانة أنظف وأطول عمرًا</h2>
+      <p>مقالات مفصلة من فريقنا الفني لمساعدتك على فهم متى وكيف تحافظ على منزلك وأجهزتك.</p>
+    </div>
+
+    <div class="articles-grid">
+      <a class="article-card" href="article-tanzeef-shamel.html">
+        <svg class="icon" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="21" stroke="currentColor" stroke-width="1.5"/><path d="M16 30l4-14 4 10 4-10 4 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3>دليل التنظيف الشامل للمنزل: من أين تبدأ ولماذا؟</h3>
+        <p>خطوات عملية لتنظيف منزلك أو مكتبك تنظيفًا عميقًا، وأخطاء شائعة يقع فيها كثيرون.</p>
+        <span class="read">اقرأ المقال ←</span>
+      </a>
+      <a class="article-card" href="article-sianat-mokayifat.html">
+        <svg class="icon" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="21" stroke="currentColor" stroke-width="1.5"/><path d="M24 14v20M16 18l16 12M32 18L16 30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3>لماذا صيانة المكيف الدورية توفر عليك فاتورة الكهرباء؟</h3>
+        <p>العلاقة بين نظافة المكيف واستهلاك الطاقة، وعلامات تخبرك أن مكيفك يحتاج صيانة الآن.</p>
+        <span class="read">اقرأ المقال ←</span>
+      </a>
+      <a class="article-card" href="article-tanzeef-afran.html">
+        <svg class="icon" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="21" stroke="currentColor" stroke-width="1.5"/><path d="M24 12c3 4-2 5-1 9 3-1 4-4 4-4 2 3 1 7-3 9-4-2-6-6-4-10 1-2 2-3 4-4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <h3>تنظيف فرن الغاز: دليل السلامة والنظافة في آن واحد</h3>
+        <p>كيف تحمي عائلتك من مخاطر تراكم الدهون والغاز، مع خطوات تنظيف آمنة للفرن.</p>
+        <span class="read">اقرأ المقال ←</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="head center">
+      <div class="eyebrow">تواصل معنا</div>
+      <h2>جاهزون نبدأ من اليوم</h2>
+      <p>راسلنا مباشرة على واتساب لحجز موعد أو الاستفسار عن أسعار الخدمات.</p>
+    </div>
+    <div class="wa-buttons">
+      <a class="wa-card" href="https://wa.me/966509614797" target="_blank" rel="noopener">
+        <span>WHATSAPP — الرقم الأول</span>
+        <b dir="ltr">0509 614 797</b>
+      </a>
+      <a class="wa-card" href="https://wa.me/966552610151" target="_blank" rel="noopener">
+        <span>WHATSAPP — الرقم الثاني</span>
+        <b dir="ltr">0552 610 151</b>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="brand-text">الإشراقة للتنظيف والصيانة</div>
+      <div class="footer-meta">© 2026 ALISHRAQA CLEANING · KINGDOM OF SAUDI ARABIA</div>
     </div>
     <div class="footer-links">
-      <a href="https://github.com/riorioriorio000000-debug" target="_blank" rel="noopener">GitHub</a>
-      <a href="#pulse">Top ↑</a>
+      <a href="#services">خدماتنا</a>
+      <a href="#articles">مقالات</a>
+      <a href="#contact">تواصل</a>
     </div>
-  </footer>
+  </div>
+</footer>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
