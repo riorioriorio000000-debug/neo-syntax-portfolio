@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://riorioriorio000000-debug.github.io/neo-syntax-portfolio/sitemap.xml

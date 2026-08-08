@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdullah — NEO-SYNTAX | Digital Architect</title>
+  <meta name="description" content="بورتفوليو Abdullah — مهندس برمجيات ومطور. مستودعات، مساهمات، ومشاريع على GitHub معروضة كتجربة بصرية سينمائية." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Abdullah" />
+  <meta name="keywords" content="Abdullah, developer, portfolio, github, software engineer, web developer, NEO-SYNTAX" />
+  <meta property="og:title" content="Abdullah — NEO-SYNTAX" />
+  <meta property="og:description" content="بورتفوليو Abdullah — مهندس برمجيات. مستودعات ومساهمات GitHub كتجربة بصرية." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://riorioriorio000000-debug.github.io/neo-syntax-portfolio/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="canonical" href="https://riorioriorio000000-debug.github.io/neo-syntax-portfolio/" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <nav class="nav">
+    <div class="nav-brand">&lt;NEO-SYNTAX /&gt;</div>
+    <div class="nav-links">
+      <a href="#pulse" data-cmd="cd ~/pulse">Pulse</a>
+      <a href="#forge" data-cmd="cd ~/forge">Forge</a>
+      <a href="#terminal" data-cmd="cd ~/connect">Connect</a>
+      <a href="https://github.com/riorioriorio000000-debug" target="_blank" rel="noopener" data-cmd="open github">GitHub ↗</a>
+    </div>
+  </nav>
+
+  <header id="pulse" class="hero">
+    <div class="hero-bg-stats" id="heroStats"></div>
+    <div class="hero-content">
+      <div class="hero-tag">_DIGITAL_ARCHITECT_v2.0</div>
+      <h1 class="hero-name" id="heroName">Abdullah</h1>
+      <p class="hero-bio" id="heroBio">Loading live data from GitHub...</p>
+      <div class="hero-metrics" id="heroMetrics">
+        <div class="metric"><span class="metric-num" data-target="0" id="mRepos">0</span><span class="metric-label">REPOSITORIES</span></div>
+        <div class="metric"><span class="metric-num" data-target="0" id="mFollowers">0</span><span class="metric-label">FOLLOWERS</span></div>
+        <div class="metric"><span class="metric-num" data-target="0" id="mFollowing">0</span><span class="metric-label">FOLLOWING</span></div>
+        <div class="metric"><span class="metric-num" data-target="0" id="mStars">0</span><span class="metric-label">TOTAL_STARS</span></div>
+      </div>
+      <div class="hero-cta">
+        <a href="#forge" class="btn-primary">explore_forge()</a>
+        <a href="https://github.com/riorioriorio000000-debug" target="_blank" rel="noopener" class="btn-ghost">view_source ↗</a>
+      </div>
+    </div>
+    <div class="scroll-hint">SCROLL ↓</div>
+  </header>
+
+  <section class="activity-strip">
+    <div class="strip-label">// recent_activity_stream</div>
+    <div class="strip-track" id="activityTrack"></div>
+  </section>
+
+  <section id="forge" class="forge">
+    <div class="section-head">
+      <span class="section-index">02</span>
+      <h2 class="section-title">The_Forge</h2>
+      <p class="section-sub">مستودعات تُطبع كقطع فنية — اسحب أفقيًا للاستكشاف</p>
+    </div>
+    <div class="repo-gallery" id="repoGallery">
+      <div class="loading-dot">fetching_repos...</div>
+    </div>
+  </section>
+
+  <section id="terminal" class="terminal-section">
+    <div class="section-head">
+      <span class="section-index">03</span>
+      <h2 class="section-title">The_Terminal</h2>
+      <p class="section-sub">تواصل عبر سطر الأوامر</p>
+    </div>
+    <div class="terminal">
+      <div class="terminal-bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="term-title">— bash —</span></div>
+      <div class="terminal-body" id="termBody">
+        <div class="term-line"><span class="prompt">visitor@neo-syntax</span>:<span class="path">~</span>$ <span class="typed" id="typedCmd"></span></div>
+        <div class="term-output" id="termOutput"></div>
+        <div class="term-commands">
+          <button data-cmd="whoami" class="cmd-btn">whoami</button>
+          <button data-cmd="social" class="cmd-btn">social</button>
+          <button data-cmd="contact" class="cmd-btn">contact</button>
+          <button data-cmd="help" class="cmd-btn">help</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-left">
+      <div class="footer-brand">© 2026 Abdullah — NEO-SYNTAX</div>
+      <div class="footer-meta">Built with static HTML/CSS/JS · Powered by GitHub API · Hosted on GitHub Pages</div>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/riorioriorio000000-debug" target="_blank" rel="noopener">GitHub</a>
+      <a href="#pulse">Top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
