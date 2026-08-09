@@ -72,6 +72,12 @@ ul{list-style:none;}
   padding:96px 0 120px;
   overflow:hidden;
   text-align:center;
+  --mx:.5;--my:.5;
+}
+.hero::before{
+  content:'';position:absolute;inset:0;pointer-events:none;z-index:1;
+  background:radial-gradient(520px circle at calc(var(--mx)*100%) calc(var(--my)*100%), rgba(216,180,121,.14), transparent 62%);
+  transition:background .05s linear;
 }
 .hero-mark{
   width:104px;height:104px;margin:0 auto 32px;
@@ -108,7 +114,7 @@ ul{list-style:none;}
 .btn{
   display:inline-flex;align-items:center;gap:10px;
   padding:15px 30px;font-weight:700;font-size:.95rem;
-  border-radius:var(--radius);transition:transform .25s ease, background .25s ease;
+  border-radius:var(--radius);transition:transform .18s ease-out, background .25s ease;
   border:1.5px solid transparent;
 }
 .btn:hover{transform:translateY(-2px);}
@@ -234,7 +240,7 @@ h2{
 .wa-buttons{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-top:10px;}
 .wa-card{
   border:1px solid var(--line);padding:26px 40px;min-width:240px;
-  transition:border-color .3s ease, background .3s ease;
+  transition:border-color .3s ease, background .3s ease, transform .18s ease-out;
 }
 .wa-card:hover{border-color:var(--white);background:var(--near-black);}
 .wa-card span{display:block;font-family:var(--ff-mono);font-size:.7rem;color:var(--gray);letter-spacing:1.5px;margin-bottom:10px;}
