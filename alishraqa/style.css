@@ -1,4 +1,9 @@
-@import url("images-data.css");
+@import url("img-logo.css");
+@import url("img-worker1.css");
+@import url("img-ksamap.css");
+@import url("img-worker2.css");
+@import url("img-tools.css");
+@import url("img-waves.css");
 
 :root{
   --teal-dark:#0f5457;
